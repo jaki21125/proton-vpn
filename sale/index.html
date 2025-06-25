@@ -1,1 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing | Proton VPN</title>
+    <link rel="icon" href="./img/vpn_f9embt.svg" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+
+            <!-- Logo a la izquierda -->
+            <div class="flex gap-1 items-center">
+                <img src="./img/vpn_f9embt.svg" alt="Icono 1" class="h-8 w-auto">
+                <img src="./img/proton-black_zvq72v.svg" alt="Logo" class="h-4 w-auto">
+                <img src="./img/vpn-purple_afexu9.svg" alt="Icono 2" class="h-4 w-auto">
+            </div>
+
+            <!-- Navegación y botón a la derecha -->
+            <div class="flex items-center gap-6">
+                <!-- Menú desktop -->
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#" class="hover:text-purple-700">Pricing</a>
+                    <a href="#" class="hover:text-purple-700">Features</a>
+                    <a href="#" class="hover:text-purple-700">Download</a>
+                    <a href="#" class="hover:text-purple-700">Support</a>
+                </nav>
+
+                <!-- Botón móvil -->
+                <div class="md:hidden">
+                    <button id="menu-button" class="text-black-700 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="flex justify-center p-6">
+        <div class="bg-white border-4 border-purple-500 rounded-2xl shadow-lg max-w-md w-full">
+            <div class="bg-purple-500 text-white text-center font-bold uppercase tracking-widest rounded-t-2xl p-2">
+                Best deal
+            </div>
+            <div class="p-6 flex flex-col gap-4">
+                <div class="uppercase">
+                    <span class="inline-block bg-green-100 text-green-700 font-bold text-xs px-3 py-1 rounded-md">70%
+                        off</span>
+                </div>
+                <h3 class="text-2xl font-serif text-purple-800">VPN Plus</h3>
+                <div>
+                    <del class="text-sm">$13.99</del>
+                    <div class="text-purple-800">
+                        <span class="text-3xl">$5</span>
+                        <span class="text-sm"> /month</span>
+                    </div>
+                    <p class="text-sm text-green-700">Save $188</p>
+                </div>
+                <a href="./"
+                    class="w-full text-center bg-purple-500 text-white font-semibold py-2 px-5 rounded-full hover:bg-purple-700 transition">Get
+                    VPN Plus</a>
+                <div class="flex justify-center text-green-700 text-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                    30-day money-back guarantee
+                </div>
+                <h4 class="font-bold">Advanced features and fastest speeds</h4>
+                <ul class="space-y-2">
+                    <li class="flex items-start gap-2 text-sm">
+                        <CheckIcon /> Secure 10 devices at a time
+                    </li>
+                    <li class="flex items-start gap-2 text-sm">
+                        <CheckIcon /> Highest VPN speed
+                    </li>
+                    <li class="flex items-start gap-2 text-sm">
+                        <CheckIcon /> 13000+ servers in 120+ countries
+                    </li>
+                    <li class="flex items-start gap-2 text-sm">
+                        <CheckIcon /> Stream your favorite TV shows and movies
+                    </li>
+                    <li class="flex items-start gap-2 text-sm">
+                        <CheckIcon /> Block ads, trackers, and malware
+                    </li>
+                    <li class="flex items-start gap-2 text-sm">
+                        <CheckIcon /> Priority support and live chat
+                    </li>
+                </ul>
+                <div class="text-xs text-center text-gray-500 pt-4 border-t border-purple-100">
+                    Billed at $71.76 for the first 24 months, then renews at $79.95 every 12 months.
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-purple-25">
+        <div class="container grid gap-6 py-6 md:gap-12 md:py-12" data-testid="footer">
+            <div class="grid gap-6 md:grid-cols-12 md:gap-4 xl:gap-6">
+                <div class="col-span-12 flex flex-col gap-6 xl:col-span-3">
+                   <div class="flex gap-1 items-center">
+                <img src="./img/vpn_f9embt.svg" alt="Icono 1" class="h-8 w-auto">
+                <img src="./img/proton-black_zvq72v.svg" alt="Logo" class="h-4 w-auto">
+                <img src="./img/vpn-purple_afexu9.svg" alt="Icono 2" class="h-4 w-auto">
+            </div>
+              
+                    <div class="flex flex-wrap gap-8 xl:flex-col">
+                        <div itemscope="" itemtype="https://schema.org/Organization" class="text-xs md:col-span-3"><span
+                                itemprop="name" class="mb-2.5 block font-bold">Proton AG</span>
+                            <div itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress"><span
+                                    itemprop="streetAddress">Route de la Galaise 32</span><br><span
+                                    itemprop="postalCode">1228</span>&nbsp;<span
+                                    itemprop="addressLocality">Plan-les-Ouates</span><br><span
+                                    itemprop="addressRegion">Geneva, Switzerland</span></div>
+                        </div>
+                    </div>
+                </div><astro-island uid="Z28aurM" prefix="r25" component-url="/_astro/FooterNavigation.DEiqGow8.js"
+                    component-export="FooterNavigation" renderer-url="/_astro/client.DynPhHJb.js"
+                    props="{&quot;slot&quot;:[0,&quot;navigation&quot;],&quot;layout&quot;:[0,&quot;full&quot;],&quot;variant&quot;:[0,&quot;light&quot;]}"
+                    client="idle" opts="{&quot;name&quot;:&quot;FooterNavigation&quot;,&quot;value&quot;:true}"
+                    await-children="">
+                    <nav class="col-span-12 lg:col-span-9">
+                        <ul class="grid gap-6 md:grid-cols-[1fr_2fr] md:gap-x-4 md:gap-y-12 xl:grid-cols-4 xl:gap-x-6">
+                            <li class="md:hidden">
+                                <div class="group/collapsible-panel">
+                                    <h3 class="z-over relative"><button type="button" aria-expanded="false"
+                                            aria-controls="sect-«r25Rp»" id="btn-«r25Rp»" class="w-full text-left"><span
+                                                class="flex w-full flex-row items-center justify-between gap-4"><span
+                                                    class="text-base md:text-lg lg:text-xl text-purple-800"><span
+                                                        class="text-lg font-bold">Features</span></span><span
+                                                    class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full group-hover/collapsible-panel:bg-purple-500 bg-purple-25"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        fill="currentColor" aria-hidden="true" data-slot="icon"
+                                                        class="h-3.5 w-3.5 text-purple-500 group-hover/collapsible-panel:text-white">
+                                                        <path fill-rule="evenodd"
+                                                            d="M12 3.75a.75.75 0 0 1 .75.75v6.75h6.75a.75.75 0 0 1 0 1.5h-6.75v6.75a.75.75 0 0 1-1.5 0v-6.75H4.5a.75.75 0 0 1 0-1.5h6.75V4.5a.75.75 0 0 1 .75-.75Z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg></span></span></button></h3>
+                                    <div id="sect-«r25Rp»" aria-labelledby="btn-«r25Rp»" aria-hidden="true"
+                                        role="region" class="z-over relative pb-6 hidden text-body">
+                                        <ul class="grid gap-4">
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">Free
+                                                    VPN<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">VPN
+                                                    servers<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">VPN for
+                                                    streaming<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">Netflix
+                                                    VPN<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">Secure Core
+                                                    VPN<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a rel="noopener noreferrer" target="_blank"
+                                                    href="#"
+                                                    class="text-purple-800 no-underline hover:underline">VPN for
+                                                    Business<!-- --> <span class="sr-only">(new window)</span></a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">Getting
+                                                    started<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="hidden md:block"><span id="«r25R1»" class="text-lg font-bold">Features</span>
+                                <ul aria-labelledby="«r25R1»" class="mt-4 grid gap-4">
+                                    <li><a href="#" class="text-purple-800 no-underline hover:underline">Free
+                                            VPN<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#" class="text-purple-800 no-underline hover:underline">VPN
+                                            servers<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#" class="text-purple-800 no-underline hover:underline">VPN
+                                            for streaming<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#"
+                                            class="text-purple-800 no-underline hover:underline">Netflix VPN<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#"
+                                            class="text-purple-800 no-underline hover:underline">Secure Core VPN<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a rel="noopener noreferrer" target="_blank"
+                                            href="#"
+                                            class="text-purple-800 no-underline hover:underline">VPN for
+                                            Business<!-- --> <span class="sr-only">(new window)</span></a></li>
+                                    <li><a href="#"
+                                            class="text-purple-800 no-underline hover:underline">Getting started<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li class="md:hidden">
+                                <div class="group/collapsible-panel">
+                                    <h3 class="z-over relative"><button type="button" aria-expanded="false"
+                                            aria-controls="sect-«r25Rq»" id="btn-«r25Rq»" class="w-full text-left"><span
+                                                class="flex w-full flex-row items-center justify-between gap-4"><span
+                                                    class="text-base md:text-lg lg:text-xl text-purple-800"><span
+                                                        class="text-lg font-bold">Platforms</span></span><span
+                                                    class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full group-hover/collapsible-panel:bg-purple-500 bg-purple-25"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        fill="currentColor" aria-hidden="true" data-slot="icon"
+                                                        class="h-3.5 w-3.5 text-purple-500 group-hover/collapsible-panel:text-white">
+                                                        <path fill-rule="evenodd"
+                                                            d="M12 3.75a.75.75 0 0 1 .75.75v6.75h6.75a.75.75 0 0 1 0 1.5h-6.75v6.75a.75.75 0 0 1-1.5 0v-6.75H4.5a.75.75 0 0 1 0-1.5h6.75V4.5a.75.75 0 0 1 .75-.75Z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg></span></span></button></h3>
+                                    <div id="sect-«r25Rq»" aria-labelledby="btn-«r25Rq»" aria-hidden="true"
+                                        role="region" class="z-over relative pb-6 hidden text-body">
+                                        <ul class="grid gap-4">
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">Download
+                                                    VPN<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">VPN for
+                                                    Windows<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">VPN for
+                                                    macOS<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">VPN for
+                                                    Android<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">VPN for
+                                                    iOS<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">VPN for
+                                                    Linux<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">VPN for
+                                                    Chrome<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">VPN for
+                                                    Firefox<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">VPN for
+                                                    Chromebook<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">VPN for Android
+                                                    TV<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                            <li><a href="#"
+                                                    class="text-purple-800 no-underline hover:underline">VPN for Apple
+                                                    TV<!-- -->
+                                                    <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="hidden md:block"><span id="«r25R2»" class="text-lg font-bold">Platforms</span>
+                                <ul aria-labelledby="«r25R2»" class="mt-4 grid gap-4">
+                                    <li><a href="#"
+                                            class="text-purple-800 no-underline hover:underline">Download VPN<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#"
+                                            class="text-purple-800 no-underline hover:underline">VPN for Windows<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#"
+                                            class="text-purple-800 no-underline hover:underline">VPN for macOS<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#"
+                                            class="text-purple-800 no-underline hover:underline">VPN for Android<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#" class="text-purple-800 no-underline hover:underline">VPN
+                                            for iOS<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#"
+                                            class="text-purple-800 no-underline hover:underline">VPN for Linux<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#"
+                                            class="text-purple-800 no-underline hover:underline">VPN for Chrome<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#"
+                                            class="text-purple-800 no-underline hover:underline">VPN for Firefox<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#"
+                                            class="text-purple-800 no-underline hover:underline">VPN for
+                                            Chromebook<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#"
+                                            class="text-purple-800 no-underline hover:underline">VPN for Android
+                                            TV<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                    <li><a href="#"
+                                            class="text-purple-800 no-underline hover:underline">VPN for Apple
+                                            TV<!-- -->
+                                            <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li class="md:hidden">
+                                <div class="group/collapsible-panel">
+                                    <h3 class="z-over relative"><button type="button" aria-expanded="false"
+                                            aria-controls="sect-«r25Rr»" id="btn-«r25Rr»" class="w-full text-left"><span
+                                                class="flex w-full flex-row items-center justify-between gap-4"><span
+                                                    class="text-base md:text-lg lg:text-xl text-purple-800"><span
+                                                        class="text-lg font-bold">Company</span></span><span
+                                                    class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full group-hover/collapsible-panel:bg-purple-500 bg-purple-25"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        fill="currentColor" aria-hidden="true" data-slot="icon"
+                                                        class="h-3.5 w-3.5 text-purple-500 group-hover/collapsible-panel:text-white">
+                                                        <path fill-rule="evenodd"
+                                                            d="M12 3.75a.75.75 0 0 1 .75.75v6.75h6.75a.75.75 0 0 1 0 1.5h-6.75v6.75a.75.75 0 0 1-1.5 0v-6.75H4.5a.75.75 0 0 1 0-1.5h6.75V4.5a.75.75 0 0 1 .75-.75Z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg></span></span></button></h3>
+                                    <div id="sect-«r25Rr»" aria-labelledby="btn-«r25Rr»" aria-hidden="true"
+                                        role="region" class="z-over relative pb-6 hidden text-body">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="hidden md:block"><span id="«r25R3»" class="text-lg font-bold">Company</span>
+                           
+                            </li>
+                            <li class="md:hidden">
+                                <div class="group/collapsible-panel">
+                                    <h3 class="z-over relative"><button type="button" aria-expanded="false"
+                                            aria-controls="sect-«r25Rs»" id="btn-«r25Rs»" class="w-full text-left"><span
+                                                class="flex w-full flex-row items-center justify-between gap-4"><span
+                                                    class="text-base md:text-lg lg:text-xl text-purple-800"><span
+                                                        class="text-lg font-bold">Connect</span></span><span
+                                                    class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full group-hover/collapsible-panel:bg-purple-500 bg-purple-25"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        fill="currentColor" aria-hidden="true" data-slot="icon"
+                                                        class="h-3.5 w-3.5 text-purple-500 group-hover/collapsible-panel:text-white">
+                                                        <path fill-rule="evenodd"
+                                                            d="M12 3.75a.75.75 0 0 1 .75.75v6.75h6.75a.75.75 0 0 1 0 1.5h-6.75v6.75a.75.75 0 0 1-1.5 0v-6.75H4.5a.75.75 0 0 1 0-1.5h6.75V4.5a.75.75 0 0 1 .75-.75Z"
+                                                            clip-rule="evenodd"></path>
+                                                    </svg></span></span></button></h3>
+                                    <div id="sect-«r25Rs»" aria-labelledby="btn-«r25Rs»" aria-hidden="true"
+                                        role="region" class="z-over relative pb-6 hidden text-body">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="hidden md:block"><span id="«r25R4»" class="text-lg font-bold">Connect</span>
+                            </li>
+                        </ul>
+                    </nav>
+                </astro-island>
+            </div>
+            <hr>
+            <div class="grid gap-6 md:grid md:grid-cols-12 md:gap-x-4 xl:gap-x-6">
+                <div class="flex w-full flex-col gap-6 md:col-span-12 md:flex-row md:justify-between">
+                    <div class="md:hidden">
+                        <div class="col-span-12 md:col-span-3 xl:flex xl:justify-end"><astro-island uid="1rbcz4"
+                                prefix="r24" component-url="/_astro/LanguageSwitcher.C8CNMjds.js"
+                                component-export="LanguageSwitcher" renderer-url="/_astro/client.DynPhHJb.js"
+                                props="{&quot;slot&quot;:[0,&quot;languageSwitcher&quot;],&quot;variant&quot;:[0,&quot;light&quot;]}"
+                                client="idle"
+                                opts="{&quot;name&quot;:&quot;LanguageSwitcher&quot;,&quot;value&quot;:true}"
+                                await-children="">
+                                <div class="w-fit">
+                                    <div class="relative" data-headlessui-state=""><button
+                                            data-testid="menu-button-trigger" id="headlessui-menu-button-«r24R7»"
+                                            aria-haspopup="menu" aria-expanded="false" data-headlessui-state=""
+                                            aria-disabled="false"
+                                            class="inline-flex shrink-0 items-center justify-center rounded-full text-center font-semibold outline-none transition-[color,background-color,border-color,box-shadow] duration-150 ease-out bg-transparent text-purple-500 shadow-[inset_0_0_0_2px] shadow-current ring-purple-700 no-underline hocus:bg-purple-700 hocus:text-white hocus:shadow-transparent ring-offset-2 focus-visible:ring motion-safe:active:translate-y-px py-1 px-3 text-sm gap-1 max-sm:w-full"
+                                            type="button"><span class="shrink-0">
+                                                <div
+                                                    class="flex shrink-0 items-center justify-center rounded-sm w-5 h-5">
+                                                    <!--$--><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        aria-hidden="true" data-slot="icon">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="m20.893 13.393-1.135-1.135a2.252 2.252 0 0 1-.421-.585l-1.08-2.16a.414.414 0 0 0-.663-.107.827.827 0 0 1-.812.21l-1.273-.363a.89.89 0 0 0-.738 1.595l.587.39c.59.395.674 1.23.172 1.732l-.2.2c-.212.212-.33.498-.33.796v.41c0 .409-.11.809-.32 1.158l-1.315 2.191a2.11 2.11 0 0 1-1.81 1.025 1.055 1.055 0 0 1-1.055-1.055v-1.172c0-.92-.56-1.747-1.414-2.089l-.655-.261a2.25 2.25 0 0 1-1.383-2.46l.007-.042a2.25 2.25 0 0 1 .29-.787l.09-.15a2.25 2.25 0 0 1 2.37-1.048l1.178.236a1.125 1.125 0 0 0 1.302-.795l.208-.73a1.125 1.125 0 0 0-.578-1.315l-.665-.332-.091.091a2.25 2.25 0 0 1-1.591.659h-.18c-.249 0-.487.1-.662.274a.931.931 0 0 1-1.458-1.137l1.411-2.353a2.25 2.25 0 0 0 .286-.76m11.928 9.869A9 9 0 0 0 8.965 3.525m11.928 9.868A9 9 0 1 1 8.965 3.525">
+                                                        </path>
+                                                    </svg><!--/$--></div>
+                                            </span>English<span class="shrink-0">
+                                                <div
+                                                    class="flex shrink-0 items-center justify-center rounded-sm w-5 h-5">
+                                                    <!--$--><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        aria-hidden="true" data-slot="icon">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
+                                                    </svg><!--/$--></div>
+                                            </span></button></div>
+                                </div>
+                            </astro-island></div>
+                    </div>
+                    <div class="md:flex md:flex-grow">
+                        <ul class="col-span-12 sm:flex sm:flex-wrap sm:gap-x-5 sm:gap-y-2 md:col-span-9">
+                            <li><a rel="noopener noreferrer" target="_blank" href="#"
+                                    class="text-purple-800 no-underline hover:underline">System status</a></li>
+                            <li><a href="mailto:abuse@protonvpn.com"
+                                    class="text-purple-800 no-underline hover:underline">Report abuse</a></li>
+                            <li><a href="#"
+                                    class="text-purple-800 no-underline hover:underline">Report a problem
+                                </a></li>
+                            <li><a rel="noopener noreferrer" target="_blank"
+                                    href="#"
+                                    class="text-purple-800 no-underline hover:underline">Report a security issue></a></li>
+                            <li><a rel="noopener noreferrer" target="_blank" href="#"
+                                    class="text-purple-800 no-underline hover:underline">Request a feature</a></li>
+                        </ul>
+                    </div>
+                    <div class="hidden md:block md:flex-shrink-0">
+                        <div class="col-span-12 md:col-span-3 xl:flex xl:justify-end"><astro-island uid="1rbcz4"
+                                prefix="r24" component-url="/_astro/LanguageSwitcher.C8CNMjds.js"
+                                component-export="LanguageSwitcher" renderer-url="/_astro/client.DynPhHJb.js"
+                                props="{&quot;slot&quot;:[0,&quot;languageSwitcher&quot;],&quot;variant&quot;:[0,&quot;light&quot;]}"
+                                client="idle"
+                                opts="{&quot;name&quot;:&quot;LanguageSwitcher&quot;,&quot;value&quot;:true}"
+                                await-children="">
+                                <div class="w-fit">
+                                    <div class="relative" data-headlessui-state=""><button
+                                            data-testid="menu-button-trigger" id="headlessui-menu-button-«r24R7»"
+                                            aria-haspopup="menu" aria-expanded="false" data-headlessui-state=""
+                                            aria-disabled="false"
+                                            class="inline-flex shrink-0 items-center justify-center rounded-full text-center font-semibold outline-none transition-[color,background-color,border-color,box-shadow] duration-150 ease-out bg-transparent text-purple-500 shadow-[inset_0_0_0_2px] shadow-current ring-purple-700 no-underline hocus:bg-purple-700 hocus:text-white hocus:shadow-transparent ring-offset-2 focus-visible:ring motion-safe:active:translate-y-px py-1 px-3 text-sm gap-1 max-sm:w-full"
+                                            type="button"><span class="shrink-0">
+                                                <div
+                                                    class="flex shrink-0 items-center justify-center rounded-sm w-5 h-5">
+                                                    <!--$--><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        aria-hidden="true" data-slot="icon">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="m20.893 13.393-1.135-1.135a2.252 2.252 0 0 1-.421-.585l-1.08-2.16a.414.414 0 0 0-.663-.107.827.827 0 0 1-.812.21l-1.273-.363a.89.89 0 0 0-.738 1.595l.587.39c.59.395.674 1.23.172 1.732l-.2.2c-.212.212-.33.498-.33.796v.41c0 .409-.11.809-.32 1.158l-1.315 2.191a2.11 2.11 0 0 1-1.81 1.025 1.055 1.055 0 0 1-1.055-1.055v-1.172c0-.92-.56-1.747-1.414-2.089l-.655-.261a2.25 2.25 0 0 1-1.383-2.46l.007-.042a2.25 2.25 0 0 1 .29-.787l.09-.15a2.25 2.25 0 0 1 2.37-1.048l1.178.236a1.125 1.125 0 0 0 1.302-.795l.208-.73a1.125 1.125 0 0 0-.578-1.315l-.665-.332-.091.091a2.25 2.25 0 0 1-1.591.659h-.18c-.249 0-.487.1-.662.274a.931.931 0 0 1-1.458-1.137l1.411-2.353a2.25 2.25 0 0 0 .286-.76m11.928 9.869A9 9 0 0 0 8.965 3.525m11.928 9.868A9 9 0 1 1 8.965 3.525">
+                                                        </path>
+                                                    </svg><!--/$--></div>
+                                            </span>English<span class="shrink-0">
+                                                <div
+                                                    class="flex shrink-0 items-center justify-center rounded-sm w-5 h-5">
+                                                    <!--$--><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        aria-hidden="true" data-slot="icon">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
+                                                    </svg><!--/$--></div>
+                                            </span></button></div>
+                                </div>
+                            </astro-island></div>
+                    </div>
+                </div>
+            </div>
+            <ul class="text-xs sm:flex sm:flex-wrap sm:gap-y-2">
+                <li class="sm:mr-2 sm:border-r sm:border-purple-200 sm:pr-2"><a href="#"
+                        class="text-body no-underline hover:underline">Privacy Policy
+                        <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                    </a></li>
+                <li class="sm:mr-2 sm:border-r sm:border-purple-200 sm:pr-2"><a rel="noopener noreferrer"
+                        target="_blank" href="#"
+                        class="text-body no-underline hover:underline">Terms &amp; conditions<span class="sr-only">(new
+                            window)</span></a></li>
+                <li class="sm:mr-2 sm:border-r sm:border-purple-200 sm:pr-2"><a href="#"
+                        class="text-body no-underline hover:underline">Transparency report
+                        <script>(function (link) { const handler = () => { try { window.localStorage.setItem('ref', 'pvpn_lp_b2c_vpn_footer'); } catch { } }; link.addEventListener('click', handler); link._protonRefHandler = handler; })(document.currentScript.parentElement)</script>
+                    </a></li>
+                <li class="mt-6 sm:mt-0">© <!-- -->2025<!-- --> <!-- -->Proton AG. All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
